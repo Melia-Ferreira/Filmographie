@@ -1,0 +1,225 @@
+<!DOCTYPE films SYSTEM "filmographie.dtd">
+            
+<films
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="FilmsSchema.xsd">
+    <film annee="2011" visa="114089">
+        <titre>King kong</titre>
+        <exploitation>
+            <dateSortie>Mercredi 14 décembre 2011</dateSortie>
+            <nbrEntree>2838759</nbrEntree>
+            <nbrSalle>547</nbrSalle>
+            <listepays>
+                <pays>Italie</pays>
+                <pays>Espagne</pays>
+                <pays>Royaume-Uni</pays>
+                <pays>Allemagne</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref ="1">Peter Jackson</acteur>
+            <acteur ref ="2">Naomi Watts</acteur>
+            <acteur ref ="3">Jack Black</acteur>
+            <acteur ref ="4">Adrien Brody</acteur>
+        </acteurs>
+        <realisateur>Peter Jackson</realisateur>
+        <genres>
+            <genre>aventure</genre>
+        </genres>
+        <duree temps="188" unite="min"/>
+        <scenario>New York, 1933. Artiste de music-hall à la rue, <personnage>Ann Darrow</personnage> rencontre l'audacieux
+            <keyword>explorateur</keyword>/réalisateur <personnage>Carl Denham</personnage>. <ev>Ce dernier rêve de terminer son lm inachevé, mais nourrit
+            surtout la folle ambition d'être le premier à découvrir le secret de la mystérieuse Skull Island.</ev> Il va
+            entraîner <personnage>Ann</personnage> dans sa périlleuse <keyword>aventure</keyword>...
+        </scenario>
+        <image ref="KingKong.jpg"/>
+    </film>
+    <film annee="1994" visa="114089">
+        <titre>Le roi lion</titre>
+        <exploitation>
+            <dateSortie>Mercredi 23 novembre 1994</dateSortie>
+            <nbrEntree>7895984</nbrEntree>
+            <nbrSalle>612</nbrSalle>
+            <listepays>
+                <pays>Portugal</pays>
+                <pays>Allemagne</pays>
+                <pays>Espagne</pays>
+                <pays>Royaume-Uni</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref ="5">Emmanuel Curtil</acteur>
+            <acteur ref ="6">Matthew Broderick</acteur>
+            <acteur ref ="7">Dimitri Rougeul</acteur>
+        </acteurs>
+        <realisateur>Roger Allens</realisateur>
+        <genres>
+            <genre>animation</genre>
+            <genre>aventure</genre>
+            <genre>comédie musicale</genre>
+        </genres>
+        <duree temps="89" unite="min"/>
+        <scenario>Sur les Hautes terres d’<keyword>Afrique</keyword> règne un <keyword>lion</keyword> tout-puissant, le roi <personnage>Mufasa</personnage>, que tous les hôtes de la
+            jungle respectent et admirent pour sa sagesse et sa générosité. <ev> Son jeune fils <personnage>Simba</personnage> sait qu’un jour il lui succédera,
+            conformément aux lois universelles du <keyword>cycle de la vie</keyword>, mais il est loin de deviner les épreuves et les sacrifices que lui
+            imposera l’exercice du pouvoir.</ev> Espiègle, naïf et turbulent, le lionceau passe le plus clair de son temps à jouer avec sa
+            petite copine <personnage>Nala</personnage> et à taquiner <personnage>Zazu</personnage>, son digne précepteur. Son futur <keyword>royaume</keyword> lui apparaît en songe comme un lieu enchanté
+            où il fera bon vivre, s’amuser et donner des ordres. Cependant, l’univers de <personnage>Simba</personnage> n’est pas aussi sûr qu’il le croie.
+            <personnage>Scar</personnage>, le frère de <personnage>Mufasa</personnage>, aspire en effet depuis toujours au trône. Maladivement jaloux de son aîné, il intrigue pour
+            l’éliminer en même temps que son successeur. Misant sur la curiosité enfantine et le tempérament aventureux de Simba, 
+            il révèle à celui-ci l’existence d’un mystérieux et dangereux cimetière d’éléphants. <personnage>Simba</personnage>, oubliant les avertissements
+            répétés de son père, s’y rend aussitôt en secret avec Nala et se fait attaquer par 3 <keyword>hyènes</keyword> féroces. Par chance, <personnage>Mufasa</personnage>
+            arrive à temps pour sauver l’imprudent lionceau et sa petite compagne. Mais <personnage>Scar</personnage> ne renonce pas à ses sinistres projets.
+             Aidé des 3 hyènes, il attire <personnage>Simba</personnage> dans un ravin et lance à sa poursuite un troupeau de gnous. N’écoutant que son courage,
+             <personnage>Mufasa</personnage> sauve à nouveau son fils et tente de se mettre à l’abri en gravissant la falaise. Repoussé par son frère félon,
+             il périt sous les sabots des gnous affolés. <ev> <personnage>Scar</personnage> blâme alors l’innocent <personnage>Simba</personnage> pour la mort du Roi et le persuade de
+             quitter pour toujours les Hautes terres. <personnage>Simba</personnage> se retrouve pour la première fois seul et démuni face à un monde hostile.
+             C’est alors que le <keyword>destin</keyword> place sur sa route un curieux tandem d’amis... </ev>
+        </scenario>
+        <image ref="LeRoiLion.jpg"/>
+    </film>
+    <film annee="2023" visa="318196">
+        <titre>Super Mario Bros, Le Film</titre>
+        <exploitation>
+            <dateSortie>Jeudi 5 avril 2023</dateSortie>
+            <nbrEntree>5899305</nbrEntree>
+            <nbrSalle>362</nbrSalle>
+            <listepays>
+                <pays>Portugal</pays>
+                <pays>Allemagne</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref ="8">Pierre Tessier</acteur>
+            <acteur ref ="9">Chris Pratt</acteur>
+            <acteur ref ="10">Jérémie Covillault</acteur>
+        </acteurs>
+        <realisateur>Mathhew Fogel</realisateur>
+        <genres>
+            <genre>animation</genre>
+            <genre>comédie</genre>
+        </genres>
+        <duree temps="92" unite="min"/>
+        <scenario>Alors qu’ils tentent de réparer une canalisation souterraine, <ev><personnage>Mario</personnage> et son frère <personnage>Luigi</personnage>, tous deux <keyword>plombiers</keyword>,
+             se retrouvent plongés dans un nouvel univers féerique à travers un mystérieux conduit.</ev> Mais lorsque les deux frères sont
+             séparés, <personnage>Mario</personnage> s’engage dans une <keyword>aventure</keyword> trépidante pour retrouver <personnage>Luigi</personnage>.
+           <ev>Dans sa quête, il peut compter sur l’aide du champignon <personnage>Toad</personnage>, habitant du Royaume Champignon, et les conseils avisés,
+            en matière de techniques de <keyword>combat</keyword>, de la <personnage>Princesse Peach</personnage>, guerrière déterminée à la tête du <keyword>Royaume</keyword>. </ev> C’est ainsi que
+            <personnage>Mario</personnage> réussit à mobiliser ses propres forces pour aller au bout de sa <keyword>mission</keyword>.
+            </scenario>
+        <image ref="SuperMarioBros.jpg"/>
+    </film>
+    <film annee="2006" visa="441620">
+        <titre>Cars</titre>
+        <exploitation>
+            <dateSortie>Mercredi 14 juin 2006</dateSortie>
+            <nbrEntree>380190</nbrEntree>
+            <nbrSalle>3988</nbrSalle>
+            <listepays>
+                <pays>Autriche</pays>
+                <pays>Belgique</pays>
+                <pays>Royaume-Uni</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref ="11">Guillaume Canet</acteur>
+            <acteur ref ="12">Owen Wilson</acteur>
+            <acteur ref ="13">Bernard-Pierre Donnadieu</acteur>
+        </acteurs>
+        <realisateur>John Lasseter</realisateur>
+        <genres>
+            <genre>animation</genre>
+            <genre>comédie</genre>
+            <genre>action</genre>
+            <genre>fantastique</genre>
+        </genres>
+        <duree temps="96" unite="min"/>
+        <scenario><personnage>Flash McQueen</personnage>, une splendide <keyword>voiture</keyword> de course toute neuve promise au <keyword>succès</keyword>, découvre que dans la vie,
+            ce n'est pas de franchir la ligne d'arrivée qui compte, mais le <keyword>parcours</keyword> que l'on a suivi. Parti pour participer à la
+            prestigieuse Piston Cup, il atterrit suite à une déviation dans la petite ville tranquille de Radiator Springs, sur 
+            la Route 66.
+           <ev> <personnage>McQueen</personnage> va apprendre à connaître <personnage>Sally</personnage> (une élégante Porsche 2002), <personnage>Doc Hudson</personnage> (une Hudson Hornet 1951 au passé mystérieux),
+             et <personnage>Mater</personnage> (une dépanneuse rouillée mais à qui on peut faire confiance). Ils vont l'aider à découvrir qu'il y a des choses
+             plus importantes que les <keyword>trophées</keyword>, la <keyword>gloire</keyword> et les <keyword>sponsors</keyword>...</ev>
+           </scenario>
+        <image ref="Cars.jpg"/>
+    </film>
+    <acteurDescription id="1" lieuNaissance="Pukerua Bay">
+        <nom>Jackson</nom>
+        <prenom>Peter</prenom>
+        <dateNaissance>31/10/1961</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="2" lieuNaissance="Shoreham">
+        <nom>Watts</nom>
+        <prenom>Naomi</prenom>
+        <dateNaissance>28/09/1968</dateNaissance>
+        <sexe>F</sexe>
+    </acteurDescription>
+    <acteurDescription id="3" lieuNaissance="Hermosa Beach">
+        <nom>Black</nom>
+        <prenom>Jack</prenom>
+        <dateNaissance>28/08/1969</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="4" lieuNaissance="Woodhaven">
+        <nom>Brody</nom>
+        <prenom>Adrien</prenom>
+        <dateNaissance>14/04/1973</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="5" lieuNaissance="Charenton-le-Pont">
+        <nom>Curtil</nom>
+        <prenom>Emmanuel</prenom>
+        <dateNaissance>07/02/1971</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="6" lieuNaissance="Manhattan">
+        <nom>Broderick</nom>
+        <prenom>Matthew</prenom>
+        <dateNaissance>21/03/1962</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="7" lieuNaissance="Thiais">
+        <nom>Rougeul</nom>
+        <prenom>Dimitri</prenom>
+        <dateNaissance>07/09/1981</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="8" lieuNaissance="France">
+        <nom>Tessier</nom>
+        <prenom>Pierre</prenom>
+        <dateNaissance>20/05/1968</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="9" lieuNaissance="Virginia">
+        <nom>Pratt</nom>
+        <prenom>Chris</prenom>
+        <dateNaissance>31/06/1979</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="10" lieuNaissance="Paris">
+        <nom>Covillault</nom>
+        <prenom>Jérémie</prenom>
+        <dateNaissance>13/03/1976</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="11" lieuNaissance="Boulogne-Billancourt">
+        <nom>Canet</nom>
+        <prenom>Guillaume</prenom>
+        <dateNaissance>10/04/1973</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="12" lieuNaissance="Dallas">
+        <nom>Wilson</nom>
+        <prenom>Owen</prenom>
+        <dateNaissance>18/11/1968</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="13" lieuNaissance="Paris">
+        <nom>Donnadieu</nom>
+        <prenom>Bernard-Pierre</prenom>
+        <dateNaissance>02/07/1949</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+</films>

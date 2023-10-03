@@ -1,0 +1,39 @@
+<!ELEMENT films (film*,acteurDescription*)>
+    <!ELEMENT film (titre?, exploitation, acteurs, realisateur?, genres, duree?, scenario, image)>
+        <!ATTLIST film 
+            annee CDATA #REQUIRED
+            visa CDATA #REQUIRED>
+        <!ELEMENT titre (#PCDATA)>
+        <!ELEMENT exploitation (dateSortie?, nbrEntree?, nbrSalle?, listepays)>
+            <!ELEMENT dateSortie (#PCDATA)>
+            <!ELEMENT nbrEntree (#PCDATA)>
+            <!ELEMENT nbrSalle (#PCDATA)>
+            <!ELEMENT listepays (pays)*>
+                <!ELEMENT pays (#PCDATA)>
+        <!ELEMENT acteurs (acteur)*>
+            <!ELEMENT acteur (#PCDATA)>
+                <!ATTLIST acteur
+                    ref CDATA #REQUIRED>
+        <!ELEMENT realisateur (#PCDATA)>
+        <!ELEMENT genres (genre)*>
+            <!ELEMENT genre (#PCDATA)>
+        <!ELEMENT duree EMPTY>
+            <!ATTLIST duree
+                temps CDATA #REQUIRED
+                unite CDATA #FIXED "min">
+        <!ELEMENT scenario (keyword,ev,personnage)*>
+            <!ELEMENT keyword (#PCDATA)>
+            <!ELEMENT ev (#PCDATA | keyword* | personnage*)>
+            <!ELEMENT personnage (#PCDATA)>
+        <!ELEMENT image EMPTY>
+        <!ATTLIST image
+                ref CDATA #REQUIRED>
+    <!ELEMENT acteurDescription (nom, prenom, dateNaissance, sexe)?>
+        <!ATTLIST acteurDescription
+                id CDATA #REQUIRED
+                lieuNaissance CDATA>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT prenom (#PCDATA)>
+        <!ELEMENT dateNaissance (#PCDATA)>
+        <!ELEMENT sexe (#PCDATA)>
+
