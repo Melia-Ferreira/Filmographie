@@ -1,0 +1,12 @@
+.histoireType {
+    text-align: justify;
+    background-color: #DDDDDD;
+    border-style: dotted;
+    border-color:red;
+    padding: 8px;
+}
+
+.nouveaute{
+    color: red;
+    font-size: 15px;
+}

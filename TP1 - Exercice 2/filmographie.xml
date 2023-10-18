@@ -1,3 +1,4 @@
+<?xml-stylesheet href="filmographie.xsl" type="text/xsl" ?>
 <!DOCTYPE films SYSTEM "filmographie.dtd">
             
 <films
@@ -34,7 +35,7 @@
         </scenario>
         <image ref="KingKong.jpg"/>
     </film>
-    <film annee="1994" visa="114089">
+    <film annee="2011" visa="114089">
         <titre>Le roi lion</titre>
         <exploitation>
             <dateSortie>Mercredi 23 novembre 1994</dateSortie>
